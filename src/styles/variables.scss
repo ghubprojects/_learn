@@ -1,0 +1,69 @@
+/* color palette */
+:root {
+    --c-black: 0, 0, 0;
+    --c-white: 255, 255, 255;
+    --c-red-500: 230, 0, 0;
+    --c-green-500: 8, 151, 64;
+
+    --c-gray-100: 245, 245, 245;
+    --c-gray-300: 224, 224, 224;
+    --c-gray-500: 158, 158, 158;
+    --c-gray-900: 31, 31, 31;
+}
+
+/* font */
+:root {
+    --font-family-system: Notosans, sans-serif;
+
+    --font-size-12: 12px;
+    --line-height-12: 16px;
+
+    --font-size-13: 13px;
+    --line-height-13: 17px;
+
+    --font-size-14: 14px;
+    --line-height-14: 18px;
+
+    --font-size-16: 16px;
+    --line-height-16: 20px;
+
+    --font-size-18: 18px;
+    --line-height-18: 20px;
+
+    --font-size-20: 20px;
+    --line-height-20: 26px;
+}
+
+/* Semantic color variables */
+:root {
+    --c-primary: var(--c-green-500);
+    --modal-background: rgba(0, 0, 0, 0.4);
+}
+
+/* Layout variables */
+:root {
+    --header-height: 56px;
+    --sidebar-width: 200px;
+    --content-width: calc(100% - var(--sidebar-width));
+    --table-row-height: 32px;
+
+    --line-height-base: 18px;
+    --line-height-small: 17px;
+
+    --font-size-base: 14px;
+    --font-size-small: 13px;
+    --font-size-extra-small: 12px;
+}
+
+/* semantic variables */
+:root {
+    --sidebar-width-expand: 200px;
+    --sidebar-width-collapse: 56px;
+
+    --navbar-height: 56px;
+
+    --main-content-padding-top: 24px;
+    --main-content-padding-left: 24px;
+
+    --separator: 200, 200, 200;
+}
